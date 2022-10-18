@@ -1,0 +1,37 @@
+{
+	"name" : "tuyenlaptrinh/php-mega-nz",
+	"description" : "A php API wrapper to connect to mega.nz API",
+	"type" : "library",
+	"homepage" : "https://github.com/tuyenlaptrinh/php-mega-nz",
+	"license" : "MIT",
+	"support" : {
+		"issues" : "https://github.com/tuyenlaptrinh/php-mega-nz/issues",
+		"source" : "https://github.com/tuyenlaptrinh/php-mega-nz"
+	},
+	"authors" : [{
+			"name" : "Tuyen Pham",
+			"homepage" : "https://github.com/tuyenlaptrinh",
+			"role" : "Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"PhpExtended\\Mega\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.3.0",
+		"ext-mcrypt" : "*",
+		"ext-openssl" : "*",
+		"ext-curl" : "*"
+	},
+	"keywords" : [
+		"php",
+		"mega.nz",
+		"mega.co.nz",
+		"API",
+		"wrapper",
+		"mega",
+		"client"
+	]
+}
